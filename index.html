@@ -3,14 +3,33 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Vanilla Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+        crossorigin="" />
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body,
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="">Hello World!</div>
+    <div id="map"></div>
+
     <script src="build/vanilla-map.js" charset="utf-8"></script>
+
     <script type="text/javascript">
-        // do something here...
+        var mapFactory = VanillaMap()
+        mapFactory.render();
     </script>
 </body>
 
