@@ -21,7 +21,7 @@ module.exports = {
         library: process.env.NAME,
         libraryTarget: process.env.TARGET,
         path: __dirname,
-        filename: (PROD) ? 'build/vmap.min.js' : 'build/vmap.js'
+        filename: (PROD) ? 'build/vanilla-map.min.js' : 'build/vanilla-map.js'
     },
     module: {
         loaders: [
