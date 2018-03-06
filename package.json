@@ -1,0 +1,28 @@
+{
+  "name": "vanilla-map",
+  "version": "1.0.0",
+  "description": "Simple library in vanilla JavaScript to manage a map in the browser, using a third-party library below to render the map (Leaflet and D3)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victordelval/vanilla-map.git"
+  },
+  "keywords": [
+    "vanillaJS",
+    "es6",
+    "library",
+    "map",
+    "map-wrapper",
+    "leaflet-wrapper",
+    "d3-map-wrapper"
+  ],
+  "author": "Victor del Val",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victordelval/vanilla-map/issues"
+  },
+  "homepage": "https://github.com/victordelval/vanilla-map#readme"
+}
